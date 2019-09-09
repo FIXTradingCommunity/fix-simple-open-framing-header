@@ -110,13 +110,13 @@ Relevant and Related Standards
 
 | **Related Standard** | **Version**      | **Reference location** | **Relationship**                                     | **Normative** 
 |----------------------|------------------|------------------------|------------------------------------------------------|---------------|
-| SBE                  | 1.0              |                        | SOF Header can be used with SBE                      |               |
+| SBE                  | 1.0, 2.0         |                        | SOF Header can be used with SBE                      |               |
 | FIX GPB              | 1.0              |                        | SOF Header can be used with FIX encoding using GPB   |               |
 | FIX                  | 4.2, 4.4, 5.0SP2 |                        | SOF Header can be used with FIX Tag=value encodings  |               |
 | FAST                 | 1.0, 1.1, 1.2    |                        | SOF Header can be used with FIX encoding using FAST  |               |
 | FIX ASN.1            | 1.0              |                        | SOF Header can be used with FIX encoding using ASN.1 |               |
 | XML                  |                  |                        | SOF Header can be used with XML                      |               |
-| FIX JSON             | 1.0              |                        |Header can be used with FIX encoding using JSON         |               |
+| FIX JSON             | 1.0              |                        |Header can be used with FIX encoding using JSON       |               |
 
 Intellectual Property Disclosure
 ================================
@@ -170,6 +170,8 @@ The following encoding types are defined initially as part of the standard. Futu
 | Private User Defined                             | 0x0001 through 0x00FF
 | FIX SBE Version 1.0 Big-Endian                   | 0x5BE0
 | FIX SBE Version 1.0 Little-Endian                | 0xEB50
+| FIX SBE Version 2.0 Big-Endian                   | 0x5BE1
+| FIX SBE Version 2.0 Little-Endian                | 0xEB51
 | FIX GPB Version 1.0                              | 0x4700
 | FIX ASN.1 PER Version 1.0                        | 0xA500
 | FIX ASN.1 BER Version 1.0                        | 0xA501
