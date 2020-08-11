@@ -1,18 +1,3 @@
-![](media/image1.jpg)
-
-FIX Simple Open Framing Header
-==============================
-
-Release Candidate 1
-
-Technical Proposal
-
-September 8, 2014
-
-Proposal Status: Public Review
-
- Copyright 2014-2015 FIX Protocol Limited
-
 Introduction
 ============
 
@@ -61,7 +46,7 @@ NONE
 Relevant and Related Standards
 ==============================
 
-| **Related Standard** | **Version**      | **Reference location** | **Relationship**                                     | **Normative** 
+| **Related Standard** | **Version**      | **Reference location** | **Relationship**                                     | **Normative**
 |----------------------|------------------|------------------------|------------------------------------------------------|---------------|
 | SBE                  | 1.0              |                        | SOF Header can be used with SBE                      |               |
 | FIX GPB              | 1.0              |                        | SOF Header can be used with FIX encoding using GPB   |               |
@@ -116,7 +101,7 @@ The Encoding\_Type field shall be two octets in length, permitting the identific
 
 The following encoding types are defined initially as part of the standard. Future encoding types will be defined as part of the standards process.
 
-**Simple Open Framing Header – Encoding\_Types** 
+**Simple Open Framing Header – Encoding\_Types**
 
 | **Encoding\_Type**                               | **Values**            |
 |--------------------------------------------------|-----------------------|
